@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function VideoSection() {
   return (
-       <div className="max-w-400 mt-5 mx-auto flex flex-nowrap lg:flex-row flex-col p-5 lg:p-8 justify-center items-center gap-4 lg:gap-5" dir="rtl">
+       <div className="max-w-400 mt-7 mx-auto flex flex-nowrap lg:flex-row flex-col p-5 lg:p-8 justify-center items-center gap-4 lg:gap-5" dir="rtl">
         <div className="shadow-[-3px_3px_7px_0px_rgba(0,0,0,0.2)] w-[318px] h-[450px] bg-white hidden xl:block">
           <div id="29210393269" className="h-48 flex items-center justify-center bg-gray-200">
                <iframe
@@ -31,7 +31,7 @@ export default function VideoSection() {
   allowFullScreen
   scrolling="no"
   title="Aparat Video"
-  class="w-full h-full"
+  className="w-full h-full"
 ></iframe>
           </div>
           <div className="p-6 flex flex-col flex-nowrap justify-between h-64">
@@ -49,7 +49,7 @@ export default function VideoSection() {
           <div id="29743419255" className="h-48 flex items-center justify-center bg-gray-200">
            <iframe
     src="https://www.aparat.com/video/video/embed/videohash/x4047ld/vt/frame"
-    class="w-full h-full"
+    className="w-full h-full"
     allowFullScreen
     title="Aparat Video"
   ></iframe>

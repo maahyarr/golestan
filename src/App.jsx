@@ -1,8 +1,11 @@
+import Footer from './components/Layout/Footer';
 import Header from './components/Layout/Header'
 import AboutSection from './components/Sections/AboutSection';
 import BlogSection from './components/Sections/BlogSection';
 import HeroSection from './components/Sections/HeroSection'
 import ProductShowcase from './components/Sections/ProductShowcase';
+import SocialResponsibility from './components/Sections/SocialResponsibility';
+import StatsSection from './components/Sections/StatsSection';
 import VideoSection from './components/Sections/VideoSection';
 import './index.css'
 import 'animate.css';
@@ -17,6 +20,9 @@ function App() {
   <ProductShowcase/>
   <BlogSection/>
   <VideoSection/>
+  <SocialResponsibility/>
+  <StatsSection/>
+  <Footer/>
   </>
   )
 }

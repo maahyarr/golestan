@@ -1,14 +1,14 @@
 @import "tailwindcss";
 @font-face {
   font-family: IRANSans;
-  src: url('public/fonts/IRANSans/IRANSansWeb-Light.woff2') format('woff2');
+  src: url('/fonts/IRANSans/IRANSansWeb-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 }
 
 body {
   font-family: IRANSans, system-ui, sans-serif;
-  height: 100000px;
+
 }
 
 ::selection {
