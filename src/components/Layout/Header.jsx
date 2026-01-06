@@ -2,8 +2,8 @@ import React from "react";
 import { Menu } from "lucide-react";
 export default function Header() {
   return (
-    <header className=" bg-[#232323] shadow-sm relative z-50 max-w-400 mx-auto ">
-      <div className="sticky w-[95%]   mx-auto flex py-9.5">
+    <header className=" sticky top-0 bg-[#232323] shadow-sm relative z-50  mx-auto ">
+      <div className=" w-[95%] max-w-400  mx-auto flex py-9.5">
         <div className="w-[20%]  ">
           <div className="w-42.5  absolute md:right-0 lg:right-38 xl:right-56 lg:top-[20%] top-[5%]">
             <img

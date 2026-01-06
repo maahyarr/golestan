@@ -14,7 +14,7 @@ export default function HeroSection() {
               </div>
     </div>
     <div className="w-[90%] lg:w-[35%] mx-auto lg:mx-0  min-h-114.25  flex justify-center items-start lg:items-center">
-        <img src="images/count1/tea-pic1.png" alt="" className="left-img animate__animated animate__fadeInDown w-full max-w-87.5" />
+        <img src="/images/count1/tea-pic1.png" alt="" className="left-img animate__animated animate__fadeInDown w-full max-w-87.5" />
     </div>
 </div>
   )

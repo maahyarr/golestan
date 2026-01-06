@@ -8,6 +8,7 @@
 
 body {
   font-family: IRANSans, system-ui, sans-serif;
+  height: 100000px;
 }
 
 ::selection {
