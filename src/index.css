@@ -5,11 +5,15 @@
   font-weight: 300;
   font-style: normal;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: IRANSans, system-ui, sans-serif;
 
 }
+
 
 ::selection {
   background: #333;

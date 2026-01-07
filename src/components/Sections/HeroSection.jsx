@@ -13,7 +13,7 @@ export default function HeroSection() {
 
 
   return (
-<div className="max-w-400 mx-auto min-h-114.25 bg-linear-to-br from-[#fbfbfb] to-[#d2d2d2] flex flex-col lg:flex-row lg:justify-center ">
+<div id='up' className="max-w-400 mx-auto min-h-114.25 bg-linear-to-br from-[#fbfbfb] to-[#d2d2d2] flex flex-col lg:flex-row lg:justify-center ">
     <div className="w-[90%] lg:w-[37%] mx-auto min-h-114.25  flex items-center">
         <div>
          <h2 className=" text-3xl font-normal lg:text-[30px] text-[#ed1c24] mb-4"> {heroContent.title}</h2>

@@ -1,5 +1,6 @@
 import Footer from './components/Layout/Footer';
 import Header from './components/Layout/Header'
+import ScrollTop from './components/Layout/ScrollTop';
 import AboutSection from './components/Sections/AboutSection';
 import BlogSection from './components/Sections/BlogSection';
 import HeroSection from './components/Sections/HeroSection'
@@ -23,6 +24,7 @@ function App() {
   <SocialResponsibility/>
   <StatsSection/>
   <Footer/>
+  <ScrollTop/>
   </>
   )
 }
