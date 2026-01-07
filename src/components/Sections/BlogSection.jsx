@@ -2,6 +2,7 @@ import React from "react";
 import blogImage1 from "/images/count12/1.jpg";
 import blogImage2 from "/images/count12/2.jpg";
 import blogImage3 from "/images/count12/3.jpg";
+import Button from "../Ui/Button";
 
 export default function BlogSection() {
   const blogPosts = [
@@ -64,7 +65,7 @@ export default function BlogSection() {
               <p className="font-IRANSans text-[14px] font-thin leading-[30px] text-[#7c7d7e] text-justify">
                 {post.description}
               </p>
-              <button className="btn-custom w-fit mt-4">ادامه مطلب</button>
+              <Button> ادامه مطلب </Button>
             </div>
           </div>
         ))}

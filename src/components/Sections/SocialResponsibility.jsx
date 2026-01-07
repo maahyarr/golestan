@@ -1,6 +1,7 @@
 import React from "react";
 import Bar from "../Ui/Bar";
 import Button from "../Ui/Button";
+import hospital from "/images/count14/1.jpg";
 
 export default function SocialResponsibility() {
   return (
@@ -21,7 +22,7 @@ export default function SocialResponsibility() {
 
         <div className="max-w-400 absolute left-1/2 transform -translate-x-1/2 -bottom-[20%] flex justify-center z-20">
           <img
-            src="public/images/count14/1.jpg"
+            src={hospital}
             alt=""
             className=" min-w-[330px] min-h-[304px] rounded-lg object-cover "
           />
